@@ -5,61 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>今天吃什么</title>
     <link rel="manifest" href="data:application/manifest+json;base64,ewogICJuYW1lIjogIuS7peWkqeWmg+S5sOmhvyIsCiAgInNob3J0X25hbWUiOiAi5ZCD5LuA5LmIIiwKICAic3RhcnRfdXJsIjogIi4iLAogICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLAogICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmZmYiLAogICJpY29ucyI6IFt7CiAgICAic3JjIjogImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVVQUFBQWdBQUFBSUFJQU1BQUFBR2pVbE9BQUFBQmxFUkZBRUFBQUFBRUFBQUFFQVFBQUFBQUFBQVFCQUFBRUFBQUFFQVFBQUFBQUFBQVFCQUFBRUFBQUFFQVFBQUFBQUFBQVFCQUFBRUFBQUFFQVFBQUFBQUFBQVFCQUFBRUFBQUFFQVFBQUFBQUFBQVFCQUFBRUFBQUFFQVFBQUFBQUFBQVFCQUFBRUFBQUFFQVFBQUFBQUFBQVFCQUFBRUFBQUFFQVFBQUFBRjRjRXBBVUFBQUFDSVZCTVJFVUFBQUFBQUJBQUFBQUFBQUFCUUFCQVFBQUFBVUFCUUFCQVFNQUFnQUFBQUlBQUFBQUFBQUFBQkFBQkFRQUFBQVVBQlFBQkFRTUFBZ0FBQUFIUlZzQUFBQVN4RWxFUVZSNEd1M2NhV3pFQUlBQ3dNREZ4RTdBd01BQ3dNQUF3TUFBd0ZSRVZDQXdBQUF3TUFBd0hpNHdDQVFBQUF3TUFBd0VBQTRBQUFBQUFBRlFCdUFEQUFBQUFBQUFBQUFBd0FBQUFBRUFBQUFEQXdNQUFBRUFBUUFBQUFNQUF3QUFBd01BQUFBQkFBRUFBQUFGQUFVQUFRRUhBQU1BQUFBQUFBQUFBTUFBQUFCQUFBQUJBQUVBQUFBQ0FBQUFBd01BQXdBQUFCwUFBQVFBQVFBQUFBSVFBQkFBQUFCUUFBQUFRQUJBQUVBQkFBQ0FBQUFBQUFBQUFFRUFBQUFBZ0FBQUFJQUFnQUFBQUlBQVFBR0FBSUFBZ0FDQUFJQUFnQUNBQUlBQWdBQUFBTUFBd0FBQUFFQUFBQUJBUUFGQUFVQUNBQUVBQVFBR0FBVUFCZ0FGQUFjQUJ3QUhBQWNBQndBSEFBY0FCd0FJQUFnQUNBQUlBQWdBR0FBZ0FDQUFJQUFnQUFBQVFBQVFBR0FBVUFCd0FIQUE4QUR3QUhBQWNBQndBSEFBY0FCd0FJQUFrQUNRQUtBQXNBREFBTkFBNEFEd0FQQUJBQUVRQVJBQklBRXdBVUFBVUFCUUFGQUFWQUJZQUZnQVdBQmNBR0FBWUFCa0FHUUFhQUJzQUhBQWRBQjRBSHdBZkFCOEFId0FnQUNFQUlnQWpBQ1FBSlFBbUFDY0FLQUFwQUNvQUt3QXNBQzBBTGdBdkFEQUFNZ0F6QURVQU5nQTNBRGdBT2dBN0FEd0FQZ0ErZ0Q4QVArQUFBQUFBUDRBQUFBQUFBQTRBREFBTUFCQUFIQUFjQUNBQUlBQkFBRUFBY0FCd0FJQUFrQUN3QUVBQVVBQndBTUFBMEFEUUFPQUE4QUVBQVJBQk1BRkFBVkFCY0FHUUFJQUI4QUlBQWdBQUFBQUFBd0FBQUJMQUFBQUFFQUFBQUFBUUFBQUFFQUFBQUJRQUFBQWdBQUFBTUFCQUFIQUFnQUNBQU5BQTRBRHdBUUFCSUFGQUFXQUJnQUdnQWJBQndBSHdBZ0FDRUFJZ0FrQUNVQUpnQW9BQ2tBS2dBdUFDOEFNd0EwQURVQU9BQTZBRHdBQVFBQUFBRWRMMU04QUFBQUFBQkFBQUFBQXdBQUFBa0FBQUFEd0FFbUE0d0FBQUh0a0FVRTQyMFRzZ0FBQUFBU1VWT1ZJa1F3STI2NkFBQUFBQkpSVTVFcmtKZ2dUSXdEUkFBQUFBRVVsRVFWUkR3azFQd1VOeFFGQXNITXpGRE1LQUFBaEVWUUVWUkpEU1U4REFIRkpBQUlBQVFDZ1dBRkFDd0FPQUFFQUFRQUZBQUVBQndBR0FCVUFCZ0FNQUFNQUFBQUFBQVFCQUFJQUFRQVJBQUFBQXdBQUFBSUFBQUFDQUFJQUJBQUVBQWtBQUFBTUFBQUFDQUFNQUFnQURBQUlBQkFBRUFBQUFBQUFGQUFVQUFBQUJBQUVBQVFBQkFBRUFBd0FBQUJzQUFBQUVBQUFBQkFBRUFBUUFEQUFNQUJBQUVBQVFBR0FBSUFCd0FGQUJBQUJ3QWlBQ0FBSVFBZ0FCRUFFQUFTQUJJQUV3QVVBQlFBRlFBV0FCZ0FGd0FZQUJrQUdnQWFBQndBSFFBZUFCOEFId0FnQUNBQUlRQWlBQ01BSXdBa0FDVUFKZ0FtQUNjQUtBQW9BQ2tBS2dBckFDd0FMUUF1QUM4QU1BQXhBRElBTXdBd0FEVUFOZ0EzQURnQU9RQTZBRHNBUEFBOEFEMEFQZ0ErZ0Q4QVArQUFJQUFnQUVBQVFBQ0FBSUFCUUFEQUFRQUJ3QUhBQWdBQ0FBTkFBNEFEd0FRQUJNQUZBQVZBQmNBR2dBZEFCSUFHQUFhQUJ3QUh3QWhBQ0lBSXdBa0FDY0FLQUFyQURBQU5BQTJBRGdBT0FBNUFEb0FOd0E0QURnQU53QTRBRGdBT0FBNEFEUUFOQUExQURZQU53QTZBRHdBUEFBKzhqK1VBQUFBQUNWMFJWaDBaR0YwWlRwemRXSnRhVzVuQUFJQUFBQUFBUUFXQUFBQUNBQVVBQUFBQVYyRnlaRzlqZEdsMlpTNWpiMjBpT2lBaWJXOXVaVzFwWTJGMGFXOXVJaUFBVDNKcGRHVnlZV3h2Y0NBeU1EVXlMREV3TFRFMkxqZ3dNVFl3TURJdU1USTRNQ0F3TURBd01EQXdNREF3TURFNk1EQTZNVEF1TURBd0xqQXdNSG9pQUFJQUFBQUFBUUFSQUFBQUFBQUFBQUFBQUFBQUFFQUFBQUJBQUVBQUFBREFCVUFGUUFBQUJrQUFBQUxBQ0lBTXdBQUFCZzRHams0QUFBQkFaME1nQUFBR1pwWjJoMEFRQXdBQUFBMUFFWUFBQUFmQUFBQUFRQVJBQUVBQUFBQUFBREFFd0FCQUFBQUFBQUFBQUFBQUFBQUJabFkyOXNiMjRnYjNJZ1ptbGtaU0JtYjNJZ1pHOWpjeUJvZEhSd09pOHZkM2QzTG1acFpHVXVZMjl0THpBeE1DOHdNQzh3TUM5a1pXWmhkV3gwTFhSdmNEcHdiM04wYVc5dWNHRnVaRDFqZFhKeVpYUmxibVJ6YjIxd0xXVnVkR0YwYVc5dWNHRnVaRDFqYjI1MFpYSmhibWQwWVd4cGJtYzZibVYwWVhSNWFYUjVhWE56ZEc5dE9uTmxjbVZqZEhKaGJuTmhibVE5WW5WMGIzSnBMbU52YlM5amIyNTBaWEpoYm1kMFlXeHBibWN1WTJ4aGMzTTlZblZ6TG1OdmJRPT0iLAogICAgInNpemVzIjogIjg0eDg0IgogIH1dfQ==">
-    <meta name="theme-color" content="#f5f5f5">
+    <meta name="theme-color" content="#f5f5f5" id="meta-theme">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 420px; margin: auto; padding: 20px; background: #fff; }
-        h1 { font-size: 28px; text-align: center; margin-bottom: 20px; }
+        :root {
+            --bg: #ffffff;
+            --text: #1d1d1f;
+            --card-bg: #f9f9f9;
+            --border: #eee;
+            --btn-secondary-bg: #e5e5ea;
+            --btn-secondary-text: #000;
+            --placeholder-bg: #f0f0f0;
+            --popup-overlay: rgba(0,0,0,0.5);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1c1c1e;
+                --text: #f5f5f7;
+                --card-bg: #2c2c2e;
+                --border: #3a3a3c;
+                --btn-secondary-bg: #3a3a3c;
+                --btn-secondary-text: #f5f5f7;
+                --placeholder-bg: #3a3a3c;
+                --popup-overlay: rgba(0,0,0,0.7);
+            }
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 420px; margin: auto; padding: 20px 20px 100px; background: var(--bg); color: var(--text); }
+        h1 { font-size: 24px; text-align: center; margin-bottom: 20px; line-height: 1.4; }
         button { background: #007aff; color: white; border: none; padding: 12px 24px; border-radius: 12px; font-size: 18px; cursor: pointer; width: 100%; margin: 10px 0; }
-        button.secondary { background: #e5e5ea; color: #000; }
+        button.secondary { background: var(--btn-secondary-bg); color: var(--btn-secondary-text); }
+        button.small { width: auto; padding: 8px 16px; font-size: 14px; border-radius: 8px; }
         #result-box { text-align: center; margin: 20px 0; display: none; }
-        #result-box img { max-width: 100%; border-radius: 16px; margin-top: 10px; max-height: 250px; object-fit: cover; }
+        #result-box img { max-width: 100%; border-radius: 16px; margin-top: 10px; max-height: 250px; object-fit: cover; background: var(--placeholder-bg); }
         #result-box h2 { margin: 10px 0; }
         ul { list-style: none; padding: 0; }
-        li { display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #eee; position: relative; }
-        li img { width: 50px; height: 50px; object-fit: cover; border-radius: 12px; margin-right: 12px; }
-        li .info { flex: 1; }
+        li { display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border); position: relative; }
+        li img, li .placeholder-img { width: 50px; height: 50px; object-fit: cover; border-radius: 12px; margin-right: 12px; background: var(--placeholder-bg); }
+        li .info { flex: 1; display: flex; flex-direction: column; }
+        li .info .meta { font-size: 12px; color: #888; display: flex; gap: 8px; align-items: center; }
         li .actions { display: flex; gap: 8px; }
-        li .actions button { width: auto; padding: 6px 12px; font-size: 14px; background: #f0f0f0; color: #333; }
+        li .actions button { width: auto; padding: 6px 12px; font-size: 14px; background: #f0f0f0; color: #333; border-radius: 8px; }
         li .actions button.danger { background: #ff3b30; color: white; }
-        .add-form { margin-top: 25px; background: #f9f9f9; padding: 15px; border-radius: 16px; }
-        .add-form input[type="text"] { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 10px; margin-bottom: 10px; font-size: 16px; }
+        .add-form { margin-top: 25px; background: var(--card-bg); padding: 15px; border-radius: 16px; }
+        .add-form input[type="text"], .add-form input[type="number"] { width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 10px; margin-bottom: 10px; font-size: 16px; background: var(--bg); color: var(--text); }
+        .add-form label { display: block; font-size: 14px; color: #666; margin-bottom: 5px; }
         .add-form input[type="file"] { margin-bottom: 10px; }
-        .edit-popup { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; z-index: 100; }
-        .edit-popup-content { background: white; padding: 25px; border-radius: 20px; width: 90%; max-width: 380px; }
-        .edit-popup-content h3 { margin-bottom: 15px; }
-        .edit-popup-content input { width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 10px; border: 1px solid #ddd; }
-        .edit-popup-content .btn-row { display: flex; gap: 10px; }
-        .edit-popup-content .btn-row button { flex: 1; }
+        .edit-popup, .history-popup, .freeze-popup { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--popup-overlay); display: flex; justify-content: center; align-items: center; z-index: 100; }
+        .popup-content { background: var(--bg); padding: 25px; border-radius: 20px; width: 90%; max-width: 380px; max-height: 80vh; overflow-y: auto; }
+        .popup-content h3 { margin-bottom: 15px; }
+        .popup-content input, .popup-content select { width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 10px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); }
+        .popup-content .btn-row { display: flex; gap: 10px; flex-wrap: wrap; }
+        .popup-content .btn-row button { flex: 1; min-width: 60px; }
+        .weekly-card { background: var(--card-bg); border-radius: 16px; padding: 12px; margin-top: 20px; display: none; text-align: center; font-size: 14px; }
+        .weekly-card.visible { display: block; }
+        .freeze-options button { margin: 4px; }
+        .chip { display: inline-block; background: #007aff20; color: #007aff; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-left: 4px; }
+        .frozen-badge { font-size: 12px; color: #ff9500; }
     </style>
 </head>
 <body>
-    <h1>🍱 中午吃什么？</h1>
+    <h1>韩小草，又到中午了，摇一摇吃什么吧</h1>
     <button id="randomBtn">🎲 随机一下！</button>
 
     <div id="result-box">
         <h2 id="result-name"></h2>
         <img id="result-img" src="" alt="">
-        <button class="secondary" id="rerollBtn" style="margin-top:10px;">🔄 再抽一次</button>
+        <div class="btn-row" style="margin-top:10px;">
+            <button class="secondary" id="rerollBtn">🔄 再抽一次</button>
+            <button id="freezeBtn" style="background:#ff9500;">❄️ 不吃这个</button>
+        </div>
     </div>
 
-    <h2 style="margin-top:25px;">我的菜品</h2>
+    <div style="display:flex; gap:10px; margin: 10px 0;">
+        <button id="historyBtn" class="secondary small" style="flex:1;">📊 历史</button>
+        <button id="addBtnTrigger" class="secondary small" style="flex:1;">➕ 添加菜品</button>
+    </div>
+
+    <h2 style="margin-top:15px;">我的菜品</h2>
     <ul id="dishList"></ul>
     <p id="emptyHint" style="color:gray; text-align:center; margin:20px;">还没有菜品，快添加吧～</p>
 
-    <div class="add-form">
-        <h3>➕ 添加一道菜</h3>
-        <input type="text" id="dishName" placeholder="菜名，如：麻辣烫">
-        <input type="file" id="dishImage" accept="image/*">
-        <button id="addBtn">保存</button>
+    <!-- 添加表单（隐藏，点击按钮弹出） -->
+    <div id="addPopup" class="edit-popup" style="display:none;">
+        <div class="popup-content">
+            <h3>➕ 添加一道菜</h3>
+            <input type="text" id="dishName" placeholder="菜名，如：麻辣烫">
+            <label>⭐ 评分 (1-10，默认5)</label>
+            <input type="number" id="dishRating" min="1" max="10" value="5" step="1">
+            <label>📷 图片（可选）</label>
+            <input type="file" id="dishImage" accept="image/*">
+            <div class="btn-row">
+                <button id="addBtn">保存</button>
+                <button id="cancelAddBtn" class="secondary">取消</button>
+            </div>
+        </div>
     </div>
 
-    <!-- 隐藏的编辑弹窗 -->
+    <!-- 编辑弹窗 -->
     <div id="editPopup" class="edit-popup" style="display:none;">
-        <div class="edit-popup-content">
+        <div class="popup-content">
             <h3>修改菜品</h3>
             <input type="text" id="editName" placeholder="新菜名">
-            <label style="display:block; margin-bottom: 10px; color: gray;">更换图片（可选）</label>
+            <label>⭐ 评分</label>
+            <input type="number" id="editRating" min="1" max="10" step="1">
+            <label>更换图片（可选）</label>
             <input type="file" id="editImage" accept="image/*">
             <div class="btn-row">
                 <button id="saveEditBtn">保存</button>
@@ -68,45 +117,98 @@
         </div>
     </div>
 
+    <!-- 冷藏时长选择弹窗 -->
+    <div id="freezePopup" class="freeze-popup" style="display:none;">
+        <div class="popup-content">
+            <h3>冷藏多久？❄️</h3>
+            <div class="freeze-options">
+                <button data-days="1">1天</button>
+                <button data-days="2">2天</button>
+                <button data-days="3">3天</button>
+                <button data-days="7">一周</button>
+            </div>
+            <button id="cancelFreezeBtn" class="secondary" style="margin-top:8px;">取消</button>
+        </div>
+    </div>
+
+    <!-- 历史弹窗 -->
+    <div id="historyPopup" class="history-popup" style="display:none;">
+        <div class="popup-content">
+            <h3>📊 历史记录</h3>
+            <div id="historyContent"></div>
+            <button id="closeHistoryBtn" class="secondary" style="margin-top:10px;">关闭</button>
+        </div>
+    </div>
+
+    <!-- 每周一早报卡片 -->
+    <div id="weeklyCard" class="weekly-card"></div>
+
     <script>
         // ---------- IndexedDB ----------
-        const dbName = "FoodRandomDB";
-        const storeName = "dishes";
+        const DB_NAME = "FoodRandomDB";
+        const DB_VERSION = 2;
+        const DISH_STORE = "dishes";
+        const HISTORY_STORE = "history";
         let db;
 
-        const request = indexedDB.open(dbName, 1);
-        request.onupgradeneeded = (e) => {
-            db = e.target.result;
-            if (!db.objectStoreNames.contains(storeName)) {
-                db.createObjectStore(storeName, { keyPath: "id", autoIncrement: true });
-            }
-        };
-        request.onsuccess = (e) => {
-            db = e.target.result;
-            loadDishes();
-        };
-
-        function addDish(name, imageDataUrl) {
+        function openDB() {
             return new Promise((resolve, reject) => {
-                const tx = db.transaction(storeName, "readwrite");
-                const store = tx.objectStore(storeName);
-                const dish = { name, image: imageDataUrl, timestamp: Date.now() };
+                const request = indexedDB.open(DB_NAME, DB_VERSION);
+                request.onupgradeneeded = (e) => {
+                    db = e.target.result;
+                    if (e.oldVersion < 1) {
+                        db.createObjectStore(DISH_STORE, { keyPath: "id", autoIncrement: true });
+                    }
+                    if (e.oldVersion < 2) {
+                        // 新增 history 存储
+                        if (!db.objectStoreNames.contains(HISTORY_STORE)) {
+                            db.createObjectStore(HISTORY_STORE, { keyPath: "id", autoIncrement: true });
+                        }
+                        // 对已有的 dishes 添加新字段 (excludeUntil=0, rating=5)
+                        const tx = e.target.transaction;
+                        const dishStore = tx.objectStore(DISH_STORE);
+                        const cursorRequest = dishStore.openCursor();
+                        cursorRequest.onsuccess = (ce) => {
+                            const cursor = ce.target.result;
+                            if (cursor) {
+                                const dish = cursor.value;
+                                if (dish.excludeUntil === undefined) dish.excludeUntil = 0;
+                                if (dish.rating === undefined) dish.rating = 5;
+                                cursor.update(dish);
+                                cursor.continue();
+                            }
+                        };
+                    }
+                };
+                request.onsuccess = (e) => {
+                    db = e.target.result;
+                    resolve(db);
+                };
+                request.onerror = (e) => reject(e.target.error);
+            });
+        }
+
+        // ---------- 菜品操作 ----------
+        function addDish(name, imageDataUrl, rating = 5) {
+            return new Promise((resolve, reject) => {
+                const tx = db.transaction(DISH_STORE, "readwrite");
+                const store = tx.objectStore(DISH_STORE);
+                const dish = { name, image: imageDataUrl || "", rating, excludeUntil: 0, timestamp: Date.now() };
                 const req = store.add(dish);
                 req.onsuccess = () => resolve(req.result);
                 req.onerror = () => reject(req.error);
             });
         }
 
-        function updateDish(id, newName, newImageDataUrl) {
+        function updateDish(id, updates) {
             return new Promise((resolve, reject) => {
-                const tx = db.transaction(storeName, "readwrite");
-                const store = tx.objectStore(storeName);
+                const tx = db.transaction(DISH_STORE, "readwrite");
+                const store = tx.objectStore(DISH_STORE);
                 const getReq = store.get(id);
                 getReq.onsuccess = () => {
                     const dish = getReq.result;
                     if (!dish) return reject("not found");
-                    dish.name = newName;
-                    if (newImageDataUrl) dish.image = newImageDataUrl;
+                    Object.assign(dish, updates);
                     const putReq = store.put(dish);
                     putReq.onsuccess = () => resolve();
                     putReq.onerror = () => reject(putReq.error);
@@ -117,8 +219,8 @@
 
         function deleteDish(id) {
             return new Promise((resolve, reject) => {
-                const tx = db.transaction(storeName, "readwrite");
-                const store = tx.objectStore(storeName);
+                const tx = db.transaction(DISH_STORE, "readwrite");
+                const store = tx.objectStore(DISH_STORE);
                 const req = store.delete(id);
                 req.onsuccess = () => resolve();
                 req.onerror = () => reject(req.error);
@@ -127,41 +229,129 @@
 
         function getAllDishes() {
             return new Promise((resolve, reject) => {
-                const tx = db.transaction(storeName, "readonly");
-                const store = tx.objectStore(storeName);
+                const tx = db.transaction(DISH_STORE, "readonly");
+                const store = tx.objectStore(DISH_STORE);
                 const req = store.getAll();
                 req.onsuccess = () => resolve(req.result);
                 req.onerror = () => reject(req.error);
             });
         }
 
-        // ---------- UI ----------
+        // ---------- 历史记录操作 ----------
+        function addHistory(dishId, dishName) {
+            return new Promise((resolve, reject) => {
+                const tx = db.transaction(HISTORY_STORE, "readwrite");
+                const store = tx.objectStore(HISTORY_STORE);
+                const record = { dishId, dishName, timestamp: Date.now() };
+                const req = store.add(record);
+                req.onsuccess = () => {
+                    // 清理3个月前的记录
+                    cleanupOldHistory();
+                    resolve(req.result);
+                };
+                req.onerror = () => reject(req.error);
+            });
+        }
+
+        function cleanupOldHistory() {
+            const threeMonthsAgo = Date.now() - 90 * 24 * 60 * 60 * 1000;
+            const tx = db.transaction(HISTORY_STORE, "readwrite");
+            const store = tx.objectStore(HISTORY_STORE);
+            store.openCursor().onsuccess = (e) => {
+                const cursor = e.target.result;
+                if (cursor) {
+                    if (cursor.value.timestamp < threeMonthsAgo) {
+                        cursor.delete();
+                    }
+                    cursor.continue();
+                }
+            };
+        }
+
+        function getHistorySince(timestamp) {
+            return new Promise((resolve, reject) => {
+                const tx = db.transaction(HISTORY_STORE, "readonly");
+                const store = tx.objectStore(HISTORY_STORE);
+                const records = [];
+                store.openCursor().onsuccess = (e) => {
+                    const cursor = e.target.result;
+                    if (cursor) {
+                        if (cursor.value.timestamp >= timestamp) records.push(cursor.value);
+                        cursor.continue();
+                    } else {
+                        records.sort((a,b) => b.timestamp - a.timestamp);
+                        resolve(records);
+                    }
+                };
+            });
+        }
+
+        function getHistoryInRange(start, end) {
+            return getHistorySince(0).then(records => records.filter(r => r.timestamp >= start && r.timestamp <= end));
+        }
+
+        // ---------- 工具函数 ----------
+        const PLACEHOLDER_IMG = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3E%3Crect fill='%23f2f2f2' width='50' height='50' rx='12'/%3E%3Ctext fill='%23aaa' font-family='sans-serif' font-size='28' x='50%25' y='50%25' dominant-baseline='central' text-anchor='central'%3E🍽️%3C/text%3E%3C/svg%3E";
+        function getImageSrc(dish) { return dish.image && dish.image.trim() ? dish.image : PLACEHOLDER_IMG; }
+        function isFrozen(dish) { return dish.excludeUntil > Date.now(); }
+        function getDaysUntil(unix) { return Math.ceil((unix - Date.now()) / (24*60*60*1000)); }
+
+        // ---------- UI 状态 ----------
+        let currentDishes = [];
+        let pendingFreezeDishId = null;
+
+        // DOM 元素
         const randomBtn = document.getElementById("randomBtn");
         const rerollBtn = document.getElementById("rerollBtn");
+        const freezeBtn = document.getElementById("freezeBtn");
         const resultBox = document.getElementById("result-box");
         const resultName = document.getElementById("result-name");
         const resultImg = document.getElementById("result-img");
         const dishList = document.getElementById("dishList");
         const emptyHint = document.getElementById("emptyHint");
+        const historyBtn = document.getElementById("historyBtn");
+        const addBtnTrigger = document.getElementById("addBtnTrigger");
+        const weeklyCard = document.getElementById("weeklyCard");
+
+        // 添加弹窗
+        const addPopup = document.getElementById("addPopup");
         const addBtn = document.getElementById("addBtn");
+        const cancelAddBtn = document.getElementById("cancelAddBtn");
         const dishNameInput = document.getElementById("dishName");
+        const dishRatingInput = document.getElementById("dishRating");
         const dishImageInput = document.getElementById("dishImage");
 
-        // 编辑弹窗相关
+        // 编辑弹窗
         const editPopup = document.getElementById("editPopup");
         const editNameInput = document.getElementById("editName");
+        const editRatingInput = document.getElementById("editRating");
         const editImageInput = document.getElementById("editImage");
         const saveEditBtn = document.getElementById("saveEditBtn");
         const cancelEditBtn = document.getElementById("cancelEditBtn");
         let editingDishId = null;
 
-        let currentDishes = [];
+        // 冷藏弹窗
+        const freezePopup = document.getElementById("freezePopup");
+        const cancelFreezeBtn = document.getElementById("cancelFreezeBtn");
+        document.querySelectorAll("#freezePopup .freeze-options button").forEach(btn => {
+            btn.onclick = () => applyFreeze(Number(btn.dataset.days));
+        });
 
-        async function loadDishes() {
+        // 历史弹窗
+        const historyPopup = document.getElementById("historyPopup");
+        const closeHistoryBtn = document.getElementById("closeHistoryBtn");
+        const historyContent = document.getElementById("historyContent");
+
+        // ---------- 初始化 ----------
+        openDB().then(loadDishesAndUI);
+
+        async function loadDishesAndUI() {
             currentDishes = await getAllDishes();
             renderList();
+            await updateWeeklyCard();
         }
 
+        // ---------- 列表渲染 ----------
         function renderList() {
             dishList.innerHTML = "";
             if (currentDishes.length === 0) {
@@ -170,101 +360,260 @@
                 emptyHint.style.display = "none";
                 currentDishes.forEach(dish => {
                     const li = document.createElement("li");
+                    const imgSrc = getImageSrc(dish);
+                    const frozen = isFrozen(dish);
+                    const daysLeft = frozen ? getDaysUntil(dish.excludeUntil) : null;
                     li.innerHTML = `
-                        <img src="${dish.image}" alt="">
-                        <div class="info">${dish.name}</div>
+                        <img src="${imgSrc}" alt="" onerror="this.style.display='none'; this.insertAdjacentHTML('afterend','<span class=placeholder-img>🍽️</span>')">
+                        <div class="info">
+                            <span>${dish.name} ${frozen ? '<span class="frozen-badge">❄️冷藏中(' + daysLeft + '天)</span>' : ''}</span>
+                            <div class="meta">⭐${dish.rating}</div>
+                        </div>
                         <div class="actions">
                             <button class="edit-btn">✏️</button>
                             <button class="delete-btn danger">🗑️</button>
                         </div>
                     `;
-                    // 绑定事件
-                    li.querySelector(".edit-btn").onclick = () => openEditPopup(dish.id, dish.name);
+                    li.querySelector(".edit-btn").onclick = () => openEditPopup(dish);
                     li.querySelector(".delete-btn").onclick = () => deleteDishConfirm(dish.id);
                     dishList.appendChild(li);
                 });
             }
         }
 
-        randomBtn.onclick = () => {
-            if (currentDishes.length === 0) {
-                alert("还没有菜品，先添加几个吧！");
+        // ---------- 随机逻辑 ----------
+        randomBtn.onclick = () => performRandom();
+        rerollBtn.onclick = () => performRandom();
+
+        async function performRandom(maxRetries = 5) {
+            const available = currentDishes.filter(d => !isFrozen(d));
+            if (available.length === 0) {
+                alert("所有菜品都在冷藏中，请等待或取消冷藏～");
                 return;
             }
-            const randomIndex = Math.floor(Math.random() * currentDishes.length);
-            const dish = currentDishes[randomIndex];
-            resultName.textContent = `今天吃：${dish.name}！`;
-            resultImg.src = dish.image;
+
+            // 加权随机
+            const totalWeight = available.reduce((sum, d) => sum + d.rating, 0);
+            let rand = Math.random() * totalWeight;
+            let selected = null;
+            for (const dish of available) {
+                rand -= dish.rating;
+                if (rand <= 0) {
+                    selected = dish;
+                    break;
+                }
+            }
+            if (!selected) selected = available[available.length-1];
+
+            // 疲劳检查
+            const threeDaysAgo = Date.now() - 3 * 24 * 60 * 60 * 1000;
+            const recentHistory = await getHistorySince(threeDaysAgo);
+            const count = recentHistory.filter(h => h.dishId === selected.id).length;
+            if (count >= 2) {
+                const confirm = window.confirm(`这道菜你最近已经吃过，还要选它吗？\n（${selected.name}）`);
+                if (!confirm) {
+                    if (maxRetries > 0) {
+                        return performRandom(maxRetries - 1);
+                    } else {
+                        alert("还是不知道吃什么，你自己决定吧 😂");
+                        return;
+                    }
+                }
+            }
+
+            // 显示结果
+            resultName.textContent = `今天吃：${selected.name}！`;
+            resultImg.src = getImageSrc(selected);
             resultBox.style.display = "block";
             resultBox.scrollIntoView({ behavior: "smooth" });
+
+            // 写入历史
+            await addHistory(selected.id, selected.name);
+            // 更新冷藏状态（可能冷藏时间到了）
+            await refreshDishes();
+        }
+
+        async function refreshDishes() {
+            currentDishes = await getAllDishes();
+            renderList();
+        }
+
+        // ---------- 冷藏功能 ----------
+        freezeBtn.onclick = () => {
+            // 获取当前显示的菜品 id？我们需要在随机结果中记录 id
+            // 简单做法：在 result-box 数据属性保存 id，或者从 currentDishes 中找到名字对应的 id
+            const name = resultName.textContent.replace("今天吃：", "").replace("！", "");
+            const dish = currentDishes.find(d => d.name === name);
+            if (dish) {
+                pendingFreezeDishId = dish.id;
+                freezePopup.style.display = "flex";
+            }
         };
 
-        rerollBtn.onclick = () => randomBtn.onclick();
+        async function applyFreeze(days) {
+            if (pendingFreezeDishId == null) return;
+            const until = Date.now() + days * 24 * 60 * 60 * 1000;
+            await updateDish(pendingFreezeDishId, { excludeUntil: until });
+            freezePopup.style.display = "none";
+            pendingFreezeDishId = null;
+            resultBox.style.display = "none"; // 隐藏结果
+            await refreshDishes();
+        }
+
+        cancelFreezeBtn.onclick = () => {
+            freezePopup.style.display = "none";
+            pendingFreezeDishId = null;
+        };
+
+        // ---------- 添加菜品 ----------
+        addBtnTrigger.onclick = () => { addPopup.style.display = "flex"; dishNameInput.focus(); };
+        cancelAddBtn.onclick = () => { addPopup.style.display = "none"; dishNameInput.value = ""; dishImageInput.value = ""; dishRatingInput.value = 5; };
 
         addBtn.onclick = async () => {
             const name = dishNameInput.value.trim();
             if (!name) return alert("请输入菜名");
+            const rating = Math.min(10, Math.max(1, Number(dishRatingInput.value) || 5));
             const file = dishImageInput.files[0];
-            if (!file) return alert("请选择一张图片");
-
-            const reader = new FileReader();
-            reader.onload = async (e) => {
-                await addDish(name, e.target.result);
-                dishNameInput.value = "";
-                dishImageInput.value = "";
-                await loadDishes();
-            };
-            reader.readAsDataURL(file);
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = async (e) => {
+                    await addDish(name, e.target.result, rating);
+                    addPopup.style.display = "none";
+                    dishNameInput.value = ""; dishImageInput.value = ""; dishRatingInput.value = 5;
+                    await refreshDishes();
+                };
+                reader.readAsDataURL(file);
+            } else {
+                await addDish(name, "", rating);
+                addPopup.style.display = "none";
+                dishNameInput.value = ""; dishRatingInput.value = 5;
+                await refreshDishes();
+            }
         };
 
-        // ---------- 编辑功能 ----------
-        function openEditPopup(id, currentName) {
-            editingDishId = id;
-            editNameInput.value = currentName;
-            editImageInput.value = ""; // 清空文件选择
+        addPopup.onclick = (e) => { if (e.target === addPopup) { addPopup.style.display = "none"; } };
+
+        // ---------- 编辑 ----------
+        function openEditPopup(dish) {
+            editingDishId = dish.id;
+            editNameInput.value = dish.name;
+            editRatingInput.value = dish.rating;
+            editImageInput.value = "";
             editPopup.style.display = "flex";
         }
-
-        cancelEditBtn.onclick = () => {
-            editPopup.style.display = "none";
-            editingDishId = null;
-        };
-
+        cancelEditBtn.onclick = () => { editPopup.style.display = "none"; editingDishId = null; };
         saveEditBtn.onclick = async () => {
             const newName = editNameInput.value.trim();
             if (!newName) return alert("菜名不能为空");
+            const newRating = Math.min(10, Math.max(1, Number(editRatingInput.value) || 5));
             const file = editImageInput.files[0];
             if (file) {
                 const reader = new FileReader();
                 reader.onload = async (e) => {
-                    await updateDish(editingDishId, newName, e.target.result);
-                    editPopup.style.display = "none";
-                    editingDishId = null;
-                    await loadDishes();
+                    await updateDish(editingDishId, { name: newName, rating: newRating, image: e.target.result });
+                    editPopup.style.display = "none"; editingDishId = null;
+                    await refreshDishes();
                 };
                 reader.readAsDataURL(file);
             } else {
-                // 不换图
-                await updateDish(editingDishId, newName, null);
-                editPopup.style.display = "none";
-                editingDishId = null;
-                await loadDishes();
+                await updateDish(editingDishId, { name: newName, rating: newRating });
+                editPopup.style.display = "none"; editingDishId = null;
+                await refreshDishes();
             }
         };
+        editPopup.onclick = (e) => { if (e.target === editPopup) { editPopup.style.display = "none"; editingDishId = null; } };
 
-        // 点击弹窗外部关闭（可选）
-        editPopup.onclick = (e) => {
-            if (e.target === editPopup) {
-                editPopup.style.display = "none";
-                editingDishId = null;
-            }
-        };
-
-        // ---------- 删除功能 ----------
-        function deleteDishConfirm(id) {
+        // ---------- 删除 ----------
+        async function deleteDishConfirm(id) {
             if (confirm("确定删除这道菜吗？")) {
-                deleteDish(id).then(() => loadDishes());
+                await deleteDish(id);
+                await refreshDishes();
             }
+        }
+
+        // ---------- 历史弹窗 ----------
+        historyBtn.onclick = async () => {
+            historyPopup.style.display = "flex";
+            await loadHistoryContent();
+        };
+        closeHistoryBtn.onclick = () => historyPopup.style.display = "none";
+        historyPopup.onclick = (e) => { if (e.target === historyPopup) historyPopup.style.display = "none"; };
+
+        async function loadHistoryContent() {
+            const now = Date.now();
+            // 上周范围：上周一 00:00 到上周日 23:59
+            const today = new Date();
+            const dayOfWeek = today.getDay(); // 0周日 1周一 ... 6周六
+            const monday = new Date(today);
+            monday.setDate(today.getDate() - ((dayOfWeek + 6) % 7)); // 本周一
+            monday.setHours(0,0,0,0);
+            const lastMonday = new Date(monday.getTime() - 7 * 24*60*60*1000);
+            const lastSunday = new Date(lastMonday.getTime() + 6 * 24*60*60*1000);
+            lastSunday.setHours(23,59,59,999);
+
+            const lastWeekRecords = await getHistoryInRange(lastMonday.getTime(), lastSunday.getTime());
+            const monthAgo = now - 30 * 24*60*60*1000;
+            const monthRecords = await getHistorySince(monthAgo);
+
+            let html = "<h4>📅 上周吃了什么</h4>";
+            if (lastWeekRecords.length === 0) {
+                html += "<p>上周没有记录</p>";
+            } else {
+                html += "<ul>";
+                lastWeekRecords.forEach(r => {
+                    const d = new Date(r.timestamp);
+                    html += `<li style="justify-content:space-between;"><span>${r.dishName}</span><span style="color:gray; font-size:12px;">${d.toLocaleDateString()}</span></li>`;
+                });
+                html += "</ul>";
+            }
+
+            html += "<h4 style='margin-top:15px;'>🏆 一个月内最爱</h4>";
+            const freq = {};
+            monthRecords.forEach(r => freq[r.dishName] = (freq[r.dishName]||0)+1);
+            const sorted = Object.entries(freq).sort((a,b) => b[1]-a[1]);
+            if (sorted.length === 0) {
+                html += "<p>暂无数据</p>";
+            } else {
+                const top = sorted[0];
+                html += `<p>🥇 <b>${top[0]}</b> × ${top[1]} 次</p>`;
+                if (sorted.length > 1) {
+                    html += "<p style='font-size:14px; color:gray;'>其他: " + sorted.slice(1,4).map(s => `${s[0]}(${s[1]})`).join("、") + "</p>";
+                }
+            }
+            historyContent.innerHTML = html;
+        }
+
+        // ---------- 每周一早报 ----------
+        async function updateWeeklyCard() {
+            const now = new Date();
+            if (now.getDay() !== 1) { // 不是周一就隐藏
+                weeklyCard.classList.remove("visible");
+                return;
+            }
+            // 计算上周范围
+            const monday = new Date(now);
+            monday.setDate(now.getDate() - ((now.getDay() + 6) % 7) - 7);
+            monday.setHours(0,0,0,0);
+            const sunday = new Date(monday.getTime() + 6 * 24*60*60*1000);
+            sunday.setHours(23,59,59,999);
+
+            const records = await getHistoryInRange(monday.getTime(), sunday.getTime());
+            let message = "";
+            if (records.length === 0) {
+                message = "韩小草上周还没有选则吃什么呢😭";
+            } else {
+                const countMap = {};
+                records.forEach(r => countMap[r.dishName] = (countMap[r.dishName]||0)+1);
+                const maxCount = Math.max(...Object.values(countMap));
+                if (maxCount <= 1) {
+                    message = "韩小草上一周吃的很平均呢,没有挑食👍";
+                } else {
+                    const topDishes = Object.entries(countMap).filter(([_,c]) => c === maxCount).map(([n]) => n);
+                    message = `🥇 上周最爱：${topDishes[0]} (${maxCount}次)${topDishes.length>1?" 等":""}`;
+                }
+            }
+            weeklyCard.textContent = message;
+            weeklyCard.classList.add("visible");
         }
 
         // PWA 离线支持
